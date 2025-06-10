@@ -1,0 +1,30 @@
+.food-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-right: 10px;
+}
+
+.food-section h3 {
+  margin-bottom: 10px;
+  color: #7c4d28;
+}
+
+.food-item {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.emoji {
+  font-size: 24px;
+  margin-right: 10px;
+}
+img{
+  width:100px;
+}
