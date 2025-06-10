@@ -5,7 +5,12 @@ laraveldemo/vendor/
 # Env files
 *.env
 
+# IDE/workspace junk
+.vscode/
+.DS_Store
+
 # Build files
 reactfrontend/build/
 reactfrontend/dist/
+laraveldemo/storage/
 laraveldemo/public/storage/
