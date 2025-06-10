@@ -1,12 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container mt-5">
     <h2>Add New Table</h2>
-
-    <form action="{{ route('dataTable.store') }}" method="POST">
-        @csrf
-        @include('dataTable.form')
-    </form>
+    @include('tables.form')
 </div>
 @endsection
