@@ -1,0 +1,11 @@
+# Node modules
+reactfrontend/node_modules/
+laraveldemo/vendor/
+
+# Env files
+*.env
+
+# Build files
+reactfrontend/build/
+reactfrontend/dist/
+laraveldemo/public/storage/
