@@ -1,0 +1,56 @@
+.signup-page {
+  background-image: url('Frontend\public\Untitled design (1).png'); /* ضع الصورة في public وسميها background.jpg */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+  width: 320px;
+  color: white;
+  text-align: center;
+}
+
+.back-link {
+  display: block;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.signup-btn {
+  background-color: #ff7a00;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.bottom-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+}
+.input-field::placeholder {
+  color: #aaa;
+}
+
