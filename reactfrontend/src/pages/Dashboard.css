@@ -1,0 +1,91 @@
+:root {
+  --primary: #5a3e2b;          /* Dark Chocolate */
+  --secondary: #d9cbb3;        /* Light Beige */
+  --accent: #a47148;           /* Caramel Accent */
+  --card-bg: #fff8f0;          /* Soft Cream */
+  --text: #3d2f23;             /* Dark Mocha Text */
+  --shadow: rgba(0, 0, 0, 0.05);
+}
+
+.dashboard {
+  background-color: var(--secondary);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.page-title {
+  padding: 2rem;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 0 0 16px 16px;
+}
+
+.page-title h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.page-title p {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.stats {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white; /* ← بدلاً من var(--card-bg) */
+  padding: 1rem 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px var(--shadow);
+  flex: 1;
+  min-width: 200px;
+  transition: transform 0.2s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+  color: var(--primary);
+  font-size: 22px;
+}
+
+.report-select {
+  padding: 1rem 2rem;
+}
+
+.report-select select {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 12px;
+  border: 1px solid #a47148;
+  background-color: white;
+  font-size: 16px;
+}
+
+.report-content {
+  padding: 2rem;
+  background-color: white;
+  margin: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px var(--shadow);
+}
+
+
