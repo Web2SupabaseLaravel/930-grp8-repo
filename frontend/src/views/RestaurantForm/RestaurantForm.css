@@ -1,0 +1,73 @@
+
+.form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Sansita;
+  background-image: url('../../assets/images/foodies.jpg');
+}
+
+.form-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #65442D;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  color: #8F6445;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #8F6445;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #65442D;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #8F6445;
+}
+
+.success-message {
+  color: green;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+  text-align: center;
+}

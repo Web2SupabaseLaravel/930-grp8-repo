@@ -1,0 +1,61 @@
+.booking-form-bar {
+  display: flex;
+  background: #6b472e;
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  width: fit-content;
+  min-width: 600px;
+}
+
+.booking-form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0 2rem;
+}
+
+.booking-form-section:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background: #fff;
+  opacity: 0.4;
+}
+
+.booking-form-label {
+  color: #c2a48a;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.booking-form-select {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  appearance: none;
+  padding: 0.2rem 1.5rem 0.2rem 0.5rem;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.booking-form-select:focus {
+  outline: none;
+}
+
+.booking-form-select option {
+  color: #6b472e;
+  background: #fff;
+}

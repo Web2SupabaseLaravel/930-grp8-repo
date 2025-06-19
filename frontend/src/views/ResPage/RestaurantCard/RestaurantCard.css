@@ -1,0 +1,74 @@
+.restaurant-card {
+  border: 1.5px solid #a97c50;
+  border-radius: 10px;
+  background: #fff;
+  width: 370px;
+  padding: 0 0 1.5rem 0;
+  margin: 1rem auto;
+  box-sizing: border-box;
+  margin-top: -15rem;
+}
+
+.restaurant-card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  display: block;
+}
+
+.restaurant-card-name {
+  color: #8b5c2a;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 1rem 0 0.7rem 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.restaurant-card-row {
+  display: flex;
+  align-items: center;
+  color: #a97c50;
+  font-size: 1.05rem;
+  margin: 0.2rem 0 0.2rem 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e9ded5;
+  width: 85%;
+}
+
+.restaurant-card-row:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.restaurant-card-icon {
+  margin-right: 0.7rem;
+  font-size: 1.1rem;
+  color: #a97c50;
+}
+
+.restaurant-card-text {
+  color: #a97c50;
+  font-size: 1.05rem;
+}
+
+.restaurant-card-stars {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.2rem 0 0 1.2rem;
+  gap: 0.3rem;
+}
+
+.restaurant-card-star {
+  color: #d4af37;
+  font-size: 2rem;
+  margin-right: 0.1rem;
+  opacity: 0.8;
+}
+
+.restaurant-card-star.filled {
+  color: #d4af37;
+  opacity: 1;
+}
+
